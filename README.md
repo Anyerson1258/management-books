@@ -8,7 +8,7 @@ API para la gestión de libros, permitiendo agregar, eliminar, actualizar y busc
 
 - Node.js
 - MongoDB
-  Para el uso de la API se utilizara POSTMAN, adjunto endpoints para poder utilizarlo.
+- Postman: Para el uso de la API se utilizara POSTMAN, adjunto endpoints para poder utilizarlo.
 
 ## Endpoints
 
