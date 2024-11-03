@@ -15,18 +15,18 @@ API para la gestión de libros, permitiendo agregar, eliminar, actualizar y busc
  ### Usuario
  - POST:
  http://localhost:5002/api/autenticacion/registro
--POST:
+- POST:
  http://localhost:5002/api/autenticacion/ingreso
  
  ### Libro
- -POST:
+ - POST:
  http://localhost:5002/api/libros
  (Ingresar el key y value del usuario registrado)
- -GET:
+ - GET:
  http://localhost:5002/api/libros
- -DELETE:
+ - DELETE:
  http://localhost:5002/api/libros/:id
- -PUT: 
+ - PUT: 
  http://localhost:5002/api/libros/:id
 
 
