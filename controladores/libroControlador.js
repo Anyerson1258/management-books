@@ -12,10 +12,10 @@ exports.crearLibro = async (req, res) => {
 };
 
 // Obtener todos los libros creados
-exports.obtenerLibros = async (req, res) => {  // Cambié el nombre de la función a "obtenerLibros"
+exports.obtenerLibros = async (req, res) => { 
     try {
-        const libros = await Libro.find();  // Cambié "Libro" a "libros"
-        res.json(libros);  // Asegúrate de enviar la respuesta con los libros
+        const libros = await Libro.find(); 
+        res.json(libros); 
     } catch (error) {
         res.status(500).json({ mensaje: 'Error al obtener los libros creados' });
     }
